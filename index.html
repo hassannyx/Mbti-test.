@@ -3,30 +3,29 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>MBTI Personality Test – اكتشف نوع شخصيتك</title>
+  <title>MBTI Personality Test</title>
   <meta name="description" content="Free MBTI test: 35 questions • 4 choices • Arabic & English • Dark/Light • Shareable results"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div id="app" class="app">
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo">🧩</div>
-        <div>
-          <h1 id="title">MBTI Personality Test</h1>
-          <p id="subtitle" class="muted">Discover your MBTI type in minutes</p>
-        </div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">🧩</div>
+      <div>
+        <h1 id="title">MBTI Personality Test</h1>
+        <p id="subtitle" class="muted">Discover your MBTI type in minutes</p>
       </div>
-
-      <div class="controls">
-        <div class="lang-switch">
-          <button id="lang-ar" class="chip" data-lang="ar">العربية</button>
-          <button id="lang-en" class="chip" data-lang="en">English</button>
-        </div>
-        <button id="theme-toggle" class="chip">🌙</button>
+    </div>
+    <div class="controls">
+      <div class="lang">
+        <button id="lang-ar" class="chip">العربية</button>
+        <button id="lang-en" class="chip active">English</button>
       </div>
-    </header>
+      <button id="theme-toggle" class="chip">🌙</button>
+    </div>
+  </header>
 
+  <main class="app">
     <!-- شاشة البداية -->
     <section id="start-screen" class="card">
       <p id="start-desc" class="muted"></p>
@@ -56,7 +55,7 @@
       <p id="result-summary"></p>
 
       <div class="traits">
-        <div><b id="dich-title"></b></div>
+        <h3 id="dich-title" class="mt8"></h3>
         <div id="bars" class="bars"></div>
       </div>
 
@@ -74,11 +73,11 @@
         </div>
       </div>
     </section>
+  </main>
 
-    <footer class="foot muted">
-      © <span id="brand">MBTI Personality Test</span> • <span id="made">صُنع بواسطة حسن هادي</span>
-    </footer>
-  </div>
+  <footer class="foot muted">
+    <span id="footer-text">Made by Hassan Hadi</span>
+  </footer>
 
   <script src="script.js"></script>
 </body>
