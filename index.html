@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>MBTI Personality Test – اكتشف نوع شخصيتك</title>
+  <meta name="description" content="Free MBTI test: 35 questions • 4 choices • Arabic & English • Dark/Light • Shareable results"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="app" class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">🧩</div>
+        <div>
+          <h1 id="title">MBTI Personality Test</h1>
+          <p id="subtitle" class="muted">Discover your MBTI type in minutes</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="lang-switch">
+          <button id="lang-ar" class="chip" data-lang="ar">العربية</button>
+          <button id="lang-en" class="chip" data-lang="en">English</button>
+        </div>
+        <button id="theme-toggle" class="chip">🌙</button>
+      </div>
+    </header>
+
+    <!-- شاشة البداية -->
+    <section id="start-screen" class="card">
+      <p id="start-desc" class="muted"></p>
+      <button id="start-btn" class="btn primary"></button>
+    </section>
+
+    <!-- شاشة الأسئلة -->
+    <section id="quiz-screen" class="card hidden">
+      <div class="quiz-head">
+        <div id="counter" class="muted">1 / 35</div>
+        <div class="progress"><div id="progress-fill" class="fill" style="width:0%"></div></div>
+      </div>
+
+      <h2 id="question-text"></h2>
+      <div id="options" class="options"></div>
+
+      <div class="nav">
+        <button id="prev-btn" class="btn ghost">&larr; <span id="prevLabel">Back</span></button>
+        <button id="next-btn" class="btn"><span id="nextLabel">Next</span> &rarr;</button>
+      </div>
+    </section>
+
+    <!-- شاشة النتيجة -->
+    <section id="result-screen" class="card hidden">
+      <h2 id="result-title"></h2>
+      <p id="result-code" class="badge"></p>
+      <p id="result-summary"></p>
+
+      <div class="traits">
+        <div><b id="dich-title"></b></div>
+        <div id="bars" class="bars"></div>
+      </div>
+
+      <div class="who">
+        <h3 id="who-title">Famous with this type</h3>
+        <ul id="who-list"></ul>
+      </div>
+
+      <div class="share">
+        <h3 id="share-title">Share your result</h3>
+        <div class="share-row">
+          <button id="share-wa" class="btn whats">WhatsApp</button>
+          <button id="share-x" class="btn x">X / Twitter</button>
+          <button id="retry-btn" class="btn ghost"></button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot muted">
+      © <span id="brand">MBTI Personality Test</span> • <span id="made">صُنع بواسطة حسن هادي</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
