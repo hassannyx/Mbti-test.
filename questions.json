@@ -1,0 +1,145 @@
+[
+  { "dim":"I",
+    "en":{"text":"You feel recharged after spending time alone.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أستعيد نشاطي بعد قضاء وقت بمفردي.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"E",
+    "en":{"text":"You easily start conversations with strangers.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أبدأ الحوارات مع الغرباء بسهولة.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"I",
+    "en":{"text":"Quiet environments help you think clearly.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"البيئات الهادئة تساعدني على التفكير بوضوح.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"E",
+    "en":{"text":"You gain energy from social gatherings.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أستمد طاقتي من التجمعات الاجتماعية.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"I",
+    "en":{"text":"You prefer deep one-to-one talks over big groups.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أفضل الحوارات الثنائية العميقة على المجموعات الكبيرة.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"E",
+    "en":{"text":"You talk to clarify your thoughts.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أتكلم لأوضّح أفكاري.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"I",
+    "en":{"text":"You need time before giving your opinion.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أحتاج وقتًا قبل إبداء رأيي.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"E",
+    "en":{"text":"You feel bored without frequent interaction.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أشعر بالملل دون تفاعل متكرر.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"I",
+    "en":{"text":"You enjoy solitary hobbies.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أستمتع بهوايات فردية.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+
+  { "dim":"N",
+    "en":{"text":"You focus on patterns more than details.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أركّز على الأنماط أكثر من التفاصيل.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"S",
+    "en":{"text":"You trust direct experience over theories.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أثق بالتجربة أكثر من النظريات.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"N",
+    "en":{"text":"You often imagine future possibilities.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أتخيّل الاحتمالات المستقبلية كثيرًا.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"S",
+    "en":{"text":"You prefer facts and specifics first.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أفضل الحقائق والتفاصيل المحددة أولًا.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"N",
+    "en":{"text":"Metaphors help you understand ideas.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"تساعدني الاستعارات على فهم الأفكار.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"S",
+    "en":{"text":"You like instructions step by step.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أحب التعليمات خطوة بخطوة.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"N",
+    "en":{"text":"You enjoy brainstorming “what if”.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أستمتع بعصف ذهني من نوع \"ماذا لو\".","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"S",
+    "en":{"text":"You notice concrete things around you first.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"ألاحظ الأشياء الملموسة حولي أولًا.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"N",
+    "en":{"text":"You see connections others might miss.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أرى روابط قد لا يلاحظها الآخرون.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+
+  { "dim":"T",
+    "en":{"text":"You decide by logic more than harmony.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أقرّر بالمنطق أكثر من الانسجام.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"F",
+    "en":{"text":"People’s feelings weigh in your decisions.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"مشاعر الآخرين تؤثر في قراراتي.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"T",
+    "en":{"text":"You value fairness over compassion.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أقدّر العدالة أكثر من التعاطف.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"F",
+    "en":{"text":"You avoid hurting feelings even if hard.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أتجنب جرح المشاعر حتى لو كان صعبًا.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"T",
+    "en":{"text":"You enjoy honest debate.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أستمتع بالنقاش الصريح.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"F",
+    "en":{"text":"You prioritize relationships over winning arguments.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أقدّم العلاقات على كسب الجدال.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"T",
+    "en":{"text":"You separate people from problems.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أفصل بين الأشخاص والمشكلات.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"F",
+    "en":{"text":"You make peace quickly after conflicts.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أُصلح الخلاف سريعًا.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+
+  { "dim":"J",
+    "en":{"text":"You like plans and checklists.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أحب الخطط والقوائم.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"P",
+    "en":{"text":"You keep options open until the last minute.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أُبقي الخيارات مفتوحة حتى اللحظة الأخيرة.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"J",
+    "en":{"text":"You feel comfortable with clear structure.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أرتاح للهيكل الواضح.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"P",
+    "en":{"text":"You adapt spontaneously when plans change.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أتكيّف بعفوية عند تغيّر الخطط.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"J",
+    "en":{"text":"You complete tasks before relaxing.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أنهي المهام قبل الاسترخاء.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"P",
+    "en":{"text":"You work best close to deadlines.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أعمل بأفضل صورة قرب المواعيد النهائية.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"J",
+    "en":{"text":"You prefer decisions early.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أفضل اتخاذ القرارات مبكرًا.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"P",
+    "en":{"text":"You like exploring instead of deciding fast.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أفضل الاستكشاف بدل الحسم السريع.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  },
+  { "dim":"J",
+    "en":{"text":"You categorize and organize naturally.","choices":["Strongly Agree","Agree","Disagree","Strongly Disagree"]},
+    "ar":{"text":"أصنّف وأنظّم بشكل طبيعي.","choices":["أوافق بشدة","أوافق","لا أوافق","لا أوافق بشدة"]}
+  }
+]
