@@ -1,0 +1,117 @@
+{
+  "INTJ": {
+    "name_en": "Architect",
+    "name_ar": "العقل المدبّر",
+    "desc_en": "Strategic, independent, future-oriented problem solver.",
+    "desc_ar": "استراتيجي، مستقل، يحلّ المشكلات برؤية مستقبلية.",
+    "famous": ["Light Yagami (Anime)", "Lelouch (Anime)", "Elon Musk", "Marie Curie", "F. Nietzsche"]
+  },
+  "INTP": {
+    "name_en": "Logician",
+    "name_ar": "المنطقي",
+    "desc_en": "Analytical thinker who loves systems and ideas.",
+    "desc_ar": "مفكّر تحليلي يحب الأنظمة والأفكار.",
+    "famous": ["L (Anime)", "Shikamaru (Anime)", "Albert Einstein", "Isaac Newton", "Larry Page"]
+  },
+  "ENTJ": {
+    "name_en": "Commander",
+    "name_ar": "القائد",
+    "desc_en": "Bold, decisive leader who drives vision into reality.",
+    "desc_ar": "قائد جريء حاسم يحوّل الرؤية إلى واقع.",
+    "famous": ["Erwin Smith (Anime)", "Levi (Anime)", "Steve Jobs", "Indra Nooyi", "M. Thatcher"]
+  },
+  "ENTP": {
+    "name_en": "Debater",
+    "name_ar": "المجادل",
+    "desc_en": "Quick-witted innovator who enjoys challenging ideas.",
+    "desc_ar": "سريع البديهة ومبتكر يستمتع بتحدّي الأفكار.",
+    "famous": ["Luffy (Anime)", "Senku (Anime)", "Mark Cuban", "Sacha B. Cohen", "Tom Hanks"]
+  },
+
+  "INFJ": {
+    "name_en": "Advocate",
+    "name_ar": "المدافع",
+    "desc_en": "Insightful idealist with strong values and empathy.",
+    "desc_ar": "مثالي ثاقب البصيرة ذو قيم قوية وتعاطف.",
+    "famous": ["Itachi (Anime)", "Saber (Anime)", "Nelson Mandela", "J. K. Rowling", "Mother Teresa"]
+  },
+  "INFP": {
+    "name_en": "Mediator",
+    "name_ar": "الوسيط",
+    "desc_en": "Imaginative, value-driven; seeks meaning and harmony.",
+    "desc_ar": "خيالي تحكمه القيم؛ يبحث عن المعنى والانسجام.",
+    "famous": ["Nagisa (Anime)", "Shinji (Anime)", "W. Shakespeare", "Alicia Keys", "Johnny Depp"]
+  },
+  "ENFJ": {
+    "name_en": "Protagonist",
+    "name_ar": "البطل",
+    "desc_en": "Charismatic inspirer who unites and uplifts others.",
+    "desc_ar": "شخص كاريزمي مُلهِم يوحّد ويرفع الآخرين.",
+    "famous": ["Tanjiro (Anime)", "All Might (Anime)", "Barack Obama", "Oprah Winfrey", "Malala Yousafzai"]
+  },
+  "ENFP": {
+    "name_en": "Campaigner",
+    "name_ar": "المناضل",
+    "desc_en": "Enthusiastic, creative free-spirit who sparks ideas.",
+    "desc_ar": "متحمس وخلاق، روح حرة تشعل الأفكار.",
+    "famous": ["Naruto (Anime)", "Aang (Anime)", "Robin Williams", "Will Smith", "Keanu Reeves"]
+  },
+
+  "ISTJ": {
+    "name_en": "Logistician",
+    "name_ar": "اللوجستي",
+    "desc_en": "Responsible, organized; values duty and reliability.",
+    "desc_ar": "مسؤول ومنظّم؛ يقدّر الواجب والاعتمادية.",
+    "famous": ["Mikasa (Anime)", "Giyu (Anime)", "Angela Merkel", "Warren Buffett", "Natalie Portman"]
+  },
+  "ISFJ": {
+    "name_en": "Defender",
+    "name_ar": "المدافع",
+    "desc_en": "Warm protector; dedicated and loyal.",
+    "desc_ar": "حامٍ دافئ؛ مخلص ومتفانٍ.",
+    "famous": ["Hinata (Anime)", "Nezuko (Anime)", "Beyoncé", "Kate Middleton", "Anne Hathaway"]
+  },
+  "ESTJ": {
+    "name_en": "Executive",
+    "name_ar": "المدير",
+    "desc_en": "Efficient organizer who loves order and results.",
+    "desc_ar": "منظم فعّال يحب النظام والنتائج.",
+    "famous": ["Roy Mustang (Anime)", "Asuna (Anime)", "Sundar Pichai", "Sheryl Sandberg", "Gordon Ramsay"]
+  },
+  "ESFJ": {
+    "name_en": "Consul",
+    "name_ar": "الاستشاري",
+    "desc_en": "Social caregiver who builds harmony and support.",
+    "desc_ar": "اجتماعي داعم يبني الانسجام والمساندة.",
+    "famous": ["Sakura (Anime)", "Orihime (Anime)", "Taylor Swift", "Jennifer Lopez", "Ed Sheeran"]
+  },
+
+  "ISTP": {
+    "name_en": "Virtuoso",
+    "name_ar": "البارع",
+    "desc_en": "Practical experimenter; calm in crises; loves tools.",
+    "desc_ar": "عملي مجرّب؛ هادئ وقت الأزمات؛ يحب الأدوات.",
+    "famous": ["Levi (Anime)", "Spike (Anime)", "Bruce Lee", "Michael Jordan", "Scarlett Johansson"]
+  },
+  "ISFP": {
+    "name_en": "Adventurer",
+    "name_ar": "المغامر",
+    "desc_en": "Sensitive artist who explores personal expression.",
+    "desc_ar": "فنان حسّاس يستكشف التعبير الشخصي.",
+    "famous": ["Zoro (Anime)", "Thorfinn (Anime)", "Billie Eilish", "Michael Jackson", "Zendaya"]
+  },
+  "ESTP": {
+    "name_en": "Entrepreneur",
+    "name_ar": "رائد الأعمال",
+    "desc_en": "Energetic doer who loves action and challenge.",
+    "desc_ar": "عملي نشيط يحب الحركة والتحدي.",
+    "famous": ["Bakugo (Anime)", "Joseph Joestar (Anime)", "Dwayne Johnson", "Floyd Mayweather", "Madonna"]
+  },
+  "ESFP": {
+    "name_en": "Entertainer",
+    "name_ar": "المؤدّي",
+    "desc_en": "Spontaneous performer who brings fun and excitement.",
+    "desc_ar": "مؤدٍ عفوي يجلب المتعة والحماس.",
+    "famous": ["Usopp (Anime)", "Yoruichi (Anime)", "Rihanna", "Bruno Mars", "Miley Cyrus"]
+  }
+}
