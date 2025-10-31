@@ -10,7 +10,9 @@ body{
   font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial;
 }
 .app{max-width:900px;margin:18px auto;padding:0 14px}
-.topbar{display:flex;align-items:center;justify-content:space-between;margin:10px 0 14px}
+
+/* Header */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--border);background:var(--card)}
 .brand{display:flex;gap:10px;align-items:center}
 .logo{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:#e9f0ff;font-size:22px}
 .muted{color:var(--muted)}
@@ -19,9 +21,12 @@ body{
   padding:8px 12px;border-radius:999px;border:1px solid var(--border);
   background:var(--chip); color:var(--chip-t); cursor:pointer
 }
+.chip.active{background:var(--primary);color:#fff;border-color:transparent}
+
+/* Cards & buttons */
 .card{
   background:var(--card); border:1px solid var(--border); border-radius:16px;
-  padding:18px; margin:10px 0; box-shadow:0 1px 0 rgba(15,23,42,.02)
+  padding:18px; margin:14px 0; box-shadow:0 1px 0 rgba(15,23,42,.02)
 }
 .btn{
   padding:10px 14px; border-radius:12px; border:1px solid var(--border);
@@ -30,25 +35,34 @@ body{
 .btn.primary{background:var(--primary);color:#fff;border-color:transparent}
 .btn.primary:hover{background:var(--primary-2)}
 .btn.ghost{background:#fff}
-.hidden{display:none}
+
+/* Quiz */
+.quiz-head{display:flex;flex-direction:column;gap:8px}
+.progress{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:2px 0 10px}
+.fill{height:100%;width:0;background:linear-gradient(90deg,#0a66ff,#00c2ff)}
 .options{display:grid;gap:10px;margin-top:10px}
 .opt{
-  border:1px solid var(--border); background:#fafbff; padding:12px; border-radius:12px; cursor:pointer
+  border:1px solid var(--border); background:#f3f6ff; color:var(--text);
+  padding:12px; border-radius:12px; cursor:pointer; font-weight:600
 }
-.opt.sel{border-color:var(--primary); outline:2px solid #dbe8ff; background:#fff}
-.progress{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:10px 0}
-.fill{height:100%;width:0;background:linear-gradient(90deg,#0a66ff,#00c2ff)}
+.opt:hover{ filter:brightness(0.98); }
+.opt.sel{
+  border-color:var(--primary); outline:2px solid #dbe8ff; background:#ffffff;
+}
 .nav{display:flex;justify-content:space-between;margin-top:12px}
+
+/* Result */
 .badge{display:inline-block;background:var(--badge);color:var(--badge-t);border-radius:999px;padding:6px 10px}
-.bars{display:grid;gap:8px;margin-top:10px}
+.bars{display:grid;gap:10px;margin-top:10px}
 .bar{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden}
 .barin{height:10px;background:linear-gradient(90deg,#0a66ff,#06c);width:50%}
-.who ul, .who li{list-style:none;padding:0;margin:0}
+.who ul,.who li{list-style:none;margin:0;padding:0}
 .who li{padding:8px 10px;border:1px dashed var(--border);border-radius:10px;margin:6px 0}
 .share-row{display:flex;gap:8px;flex-wrap:wrap}
 .btn.whats{background:#25D366;color:#fff;border-color:#25D366}
 .btn.x{background:#111;color:#fff;border-color:#111}
 .foot{text-align:center;margin:14px 0}
+.mt8{margin-top:8px}
 
 /* Dark mode */
 .dark{
@@ -56,3 +70,6 @@ body{
   --primary:#5da1ff; --primary-2:#4f8fe4; --border:#222b3f;
   --chip:#141b2a; --chip-t:#e5e7eb; --badge:#e5e7eb; --badge-t:#0b0e14;
 }
+.dark .opt{ background:#1a2233; border-color:#2b3650; color:#e7ecf5; }
+.dark .opt.sel{ background:#0f1627; border-color:#5da1ff; outline:2px solid rgba(93,161,255,.25); }
+.dark .opt:hover{ filter:brightness(1.06); }
